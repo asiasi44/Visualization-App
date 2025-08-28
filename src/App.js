@@ -57,7 +57,11 @@ const App = () => {
           currentPath={currentPage}
         />
         <Route path="about" component={AboutPage} currentPath={currentPage} />
-        
+        <Route
+          path="contact"
+          component={ContactPage}
+          currentPath={currentPage}
+        />
       </Router>
     </div>
   );
